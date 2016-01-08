@@ -5,6 +5,7 @@
 
 body {
     font-family: "Comic Sans MS", cursive;
+    background-image: url("../images/background.png");
 }
 
 .nav-bar-top {
@@ -39,6 +40,7 @@ h1 {
     padding-bottom: 20px;
 }
 
+
 h3.side-nav-h {
     text-align: left;
     font-size: 1.5em;
@@ -61,9 +63,25 @@ aside {
     float: left;
 }
 
-.post {
-    padding-left: 40px;
-    padding-right: 40px;
+figure {
+    display: inline-block;
+    max-width: 30%;
+    float: left;
+}
+
+figcaption {
+    text-align: center;
+}
+
+article {
+    max-width: 85%;
+    display: inline-block;
+}
+
+.inner {
+    float: right;
+    width: 70%;
+    margin-top: 3%;
 }
 
 p {
@@ -71,22 +89,6 @@ p {
     width: 70%;
 }
 
-.post-section {
-    display: inline-block;
-    float: right;
-    width: 85%;
-}
-
-div {
-    width: 50%;
-    display: inline-block;
-}
-h3 + p {
-    float: right;
-}
-img + p {
-    text-align: center;
-}
 img {
     padding: 40px 40px 0;
 }
