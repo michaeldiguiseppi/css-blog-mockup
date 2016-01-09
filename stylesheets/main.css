@@ -27,8 +27,17 @@ body {
     margin-top: 15px;
 }
 
+.side-nav a:hover {
+    color: green;
+}
+
 .right {
     border-right: 1px solid black;
+}
+
+.top-nav-none li > a:hover {
+    background: yellowgreen;
+    transition: 1s;
 }
 
 h1 {
@@ -65,7 +74,7 @@ aside {
 
 figure {
     display: inline-block;
-    max-width: 30%;
+    width: 30%;
     float: left;
 }
 
@@ -74,7 +83,7 @@ figcaption {
 }
 
 article {
-    max-width: 85%;
+    width: 85%;
     display: inline-block;
 }
 
